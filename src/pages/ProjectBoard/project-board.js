@@ -2,7 +2,7 @@ import React, {useState, useEffect, } from "react";
 import API from "../../utils/API";
 import SubmitProject from "../../components/SubmitProject/submit-project";
 import "./project-board.css";
-import {Container, Col, Card, Button } from 'react-bootstrap';
+import {Container, Card, Button } from 'react-bootstrap';
 
 function ProjectBoard(props) {
 console.log(props)
@@ -27,7 +27,7 @@ function addProject(newProject){
 
 return(        
             <div className="project-board">               
-                <h2 className="boardTitle">Project Board</h2>
+                <h2 className="boardTitle">Add Project</h2>
                 
                 {projects.map(project =>(
                     <Container>

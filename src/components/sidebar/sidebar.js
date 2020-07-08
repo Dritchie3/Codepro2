@@ -1,7 +1,5 @@
-import { Container, Col,  Form } from 'react-bootstrap';
 import "./sidebarStyle.css";
 import React from "react";
-import SubmitProject from "../SubmitProject/submit-project"
 
 export const Sidebar = ({ width, height, children }) => {
   const [xPosition, setX] = React.useState(-width);
@@ -21,7 +19,6 @@ export const Sidebar = ({ width, height, children }) => {
   }, []);
   return (
     <React.Fragment>
-    
       <div
         className="side-bar"
         style={{
@@ -39,8 +36,6 @@ export const Sidebar = ({ width, height, children }) => {
         ></button>
         <div className="content">{children}</div>
       </div>
-      
     </React.Fragment>
   );
 };
-

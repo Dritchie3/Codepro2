@@ -12,8 +12,6 @@ class NavigationBar extends Component {
         this.logout = this.logout.bind(this)
     }
 
-    
-
     logout(event) {
         event.preventDefault()
         console.log('logging out')
