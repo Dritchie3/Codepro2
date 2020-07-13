@@ -4,7 +4,7 @@ Brought to you by the Silver Foxes Group.
 This is an app that will allow anyone with a need for a website, app or electronic media, to be connected with a freelancer.
 
 # Links:
-Heroku Deployment: https://codepro2sh70.herokuapp.com/
+Heroku Deployment: https://cpc-project3.herokuapp.com/
 
 GitHub repo: https://github.com/shamlin143/Codepro2 
 
